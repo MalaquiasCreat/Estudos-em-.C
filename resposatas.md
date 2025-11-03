@@ -94,7 +94,7 @@ int a = 5;
 int b = 3;
 printf("%d\n", a + b);
 ```
-executado em [saída do programa](./saida_do_programa.c)
+executado em [saída do programa](/saida_do_programa.c)
 ---
 
 ## 5. Escreva um exemplo de código que:
