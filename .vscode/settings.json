@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "respostas.C": "cpp",
-        "saída do programa.C": "cpp"
+        "saída do programa.C": "cpp",
+        "saída_do_programa.C": "cpp",
+        "saida_do_programa.C": "cpp"
     }
 }

@@ -1,4 +1,3 @@
-
 # Estudo em C 
 
 # Questionário de Fundamentos da Programação e Linguagem C
@@ -12,7 +11,7 @@
 
 4. Explique o que são **entrada**, **processamento** e **saída** em um programa. São três passos importantes para programação, conhecidos como IPO - imput process output. 
 Entrada/input: é a fase em que o programa recebe dados ou informações do mundo mundo exterior podendo vir de diversas fontes, como a calculadora que a entrada seria as informações que o usuário digita
-Processamento: é a fase em que o programa executa as instruções e manipula os dados de entrada para produzir o resultado, sendo o pensar do programa onde a lógica de programação é aplicada podendo ocorrer cálculos matemáticos, manipulação de dados e tomadas de decisões. Como exemplo na calculadora seria as operações realizadas com os números digitados na entrada
+Processamento: é a fase em que o programa executa as instruções e manipula os dados de entrada para produzir o resultado, sendo o pensar do programa onde a lógica de programação é aplicada podendo ocorrer cálulos matemáticos, manipulação de dados e tomadas de decisões. Como exemplo na calculadora seria as operações realizadas com os números digitados na entrada
 Saída/Output: é a fase em que o programa apresenta o resultado processado ao mundo exterior. Como exemplo na calculadora o resultado da operação após o processamento. 
 
 5. Dê um exemplo simples de **algoritmo do dia a dia** (como fazer café, atravessar a rua, etc). Atravessar a rua: chegue até o ponto seguro antes de terminar a calça, olhe para os dois lados e veja se tem algum veículo vindo se não tiver pode atravessar, caso tenha algum veículo vindo espere passar para atravessar a rua. 
@@ -95,7 +94,7 @@ int a = 5;
 int b = 3;
 printf("%d\n", a + b);
 ```
-
+executado em [saída do programa](./saida_do_programa.c)
 ---
 
 ## 5. Escreva um exemplo de código que:
