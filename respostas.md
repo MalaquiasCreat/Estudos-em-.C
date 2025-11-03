@@ -103,4 +103,5 @@ executado em [saída do programa](saida_do_programa.C)
 - Guarde o valor na variável idade
 - Mostre “Sua idade é X” na tela
 
+executado em [exercicio5.C](/exercicio5.C)
 ---
