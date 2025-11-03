@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "respostas.C": "cpp"
+        "respostas.C": "cpp",
+        "saída do programa.C": "cpp"
     }
 }
