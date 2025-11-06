@@ -6,6 +6,19 @@ int main()
     int numero = 0;
     int opcao = 0;
 
+    // Funcao para verificar se o numero e par ou impar
+    void verificaPar(int x)
+    {
+        if (x % 2 == 0)
+        {
+            printf("numero e par\n");
+        }
+        else
+        {
+            printf("numero e impar\n");
+        }
+    }
+
     // estrutura de repeticao para verificar se o numero e par ou impar
     do
     {
@@ -21,14 +34,7 @@ int main()
         case 1:
             printf("Digite um numero inteiro ");
             scanf("%d", &numero);
-            if (numero % 2 == 0)
-            {
-                printf("numero e par\n");
-            }
-            else
-            {
-                printf("numero e impar\n");
-            }
+            verificaPar(numero);
             break;
         case 2:
             printf("finalizando...\n");
