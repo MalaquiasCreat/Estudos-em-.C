@@ -23,7 +23,7 @@ int main()
     do
     {
         // Solicita ao usuario que digite um numero inteiro
-        printf("------Menu-------\n");
+        printf("-------Menu-------\n");
         printf("1.Verificar Numero: \n");
         printf("2.Finalizar\n");
         printf("opcao escolhida: \n");
