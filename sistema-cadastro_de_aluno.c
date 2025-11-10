@@ -28,11 +28,11 @@ int main()
             if (total < 43)
             {
                 printf("nome do aluno: \n");
-                scanf("%s", nome);
+                scanf("%s", &nome);
                 printf("idade: \n");
                 scanf("%d", &idade);
                 printf("nota: \n");
-                scanf("%.2f", &nota);
+                scanf("%f", &nota);
                 printf("Aluno %s cadastrado com sucesso!\n", nome, total++);
                 printf("Deseja cadastrar outro aluno? se nao, selecione outra opcao\n");
             }
@@ -55,6 +55,8 @@ int main()
             }
             break;
 
+            
+        default:
             printf("opcao invalida... \n");
         }
     } while (opcao != 4);
