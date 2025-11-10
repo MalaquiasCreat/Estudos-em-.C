@@ -31,12 +31,12 @@ int main()
             if (total < 43)
             {
                 printf("nome do aluno: \n");
-                scanf("%s", &nome);
+                scanf("%s", &nome[total]);
                 printf("idade: \n");
-                scanf("%d", &idade);
+                scanf("%d", &idade[total]);
                 printf("nota: \n");
-                scanf("%f", &nota);
-                printf("Aluno %s cadastrado com sucesso!\n", nome, total++);
+                scanf("%f", &nota[total]);
+                printf("Aluno %s cadastrado com sucesso!\n", nome[total], total++);
                 printf("Deseja cadastrar outro aluno? se nao, selecione outra opcao\n");
             }
             else
@@ -69,13 +69,13 @@ int main()
                 {
                     printf("Aluno encontrado: Nome: %s, Idade: %d, Nota: %.2f\n", nome[i], idade[i], nota[i]);
                     encontrado = 1;
-                    break;
                 }
             }
             if (!encontrado)
             {
                 printf("Aluno nao encontrado.\n");
-                        }
+            }
+            break;
         }
         default:
             printf("opcao invalida... \n");
